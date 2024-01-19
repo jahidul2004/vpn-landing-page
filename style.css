@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header section start */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+header .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  color: rgba(50, 50, 50, 0.798);
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  color: #f53535;
+  transition: all 0.3s ease 0s;
+}
+
+header .button .btn {
+  padding: 8px 13px;
+  border: 1px solid #f53535;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+header .button .btn:hover {
+  background-color: #f53535;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+header .button .btn2 {
+  color: white;
+  padding: 9px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f53535;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border: none;
+  cursor: pointer;
+}
+
+header .button .btn2:hover {
+  padding: 8px 13px;
+  background-color: white;
+  color: black;
+  border: 1px solid #f53535;
+  transition: all 0.3s ease 0s;
+}
+
+/* Header section End */
+
+/* Hero section start */
+.hero {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.hero .hero-text {
+  width: 40%;
+  margin-left: 70px;
+}
+.hero .hero-text h1 {
+  font-size: 40px;
+}
+.hero .hero-text p {
+  color: rgba(50, 50, 50, 0.798);
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero .hero-text .btn {
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #f53535;
+  cursor: pointer;
+}
+/* Hero section end */
+
+/* Service count section start */
+
+.service-count {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+/* Service count section end */
+
+/* Features section start */
+
+.features {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.features .feature-img img{
+  margin-right: 60px;
+}
+
+.features .feature-text h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.features .feature-text p{
+  color: #5f5b60;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.features .feature-text ul li{
+  list-style: none;
+  font-weight: lighter;
+  padding: 5px 0px;
+}
+
+/* Features section End */
+
+/* Plan section start */
+.plan{
+  width: 100%;
+  height: 700px;
+}
+.plan .plan-text{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+.plan .plan-text h1{
+  font-size: 35px;
+}
+.plan .plan-items{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.plan .plan-items div{
+  width: 25%;
+  height: 540px;
+  border-radius: 16px;
+  border: 1px solid #67636381;
+}
+.plan .plan-items div:hover{
+  border: 1px solid #f53535;
+  transition: all 0.3s ease 0s;
+}
+.plan-items div img{
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.plan-items div ul li{
+  padding: 5px 0px;
+  list-style: none;
+}
+
+.plan-items div .btn{
+  padding: 10px 60px;
+  margin-top: 15px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  border: 1px solid #f53535;
+  color: #f53535;
+  background-color: white;
+}
+.plan-items div .btn:hover{
+  background-color: #f53535;
+  color: white;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.plan .plan-items div h2{
+  padding: 0px 0px 5px 0px;
+}
+
+/* Plan section end */
+
+/* Network section start */
+
+.network .net-text{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.network .net-text h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.network .maps{
+  display: flex;
+  justify-content: center;
+}
+.network .maps img{
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Network section end */
+/* Partner section start */
+.partner{
+  display: flex;
+  justify-content: center;
+}
+.partner img{
+  width: 70%;
+}
+/* Partner section end */
+
+/* User comment section start */
+
+.user-comment .header-text{
+  text-align: center;
+}
+.user-comment .header-text h1{
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+
+.user-comment .comment{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.user-comment .comment div{
+  width: 20%;
+  border: 1px solid #a5abb6;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.user-comment .comment div:hover{
+  border: 1px solid #f53535;
+  transition: all 0.2s ease 0s;
+}
+
+.user-comment .comment div img{
+  margin-top: 15px;
+}
+
+.user-comment .comment div button{
+  padding: 5px 10px;
+  margin-top: 12px;
+  background-color: #f53535;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* User comment section End */
+
+/* Subscribe secction start */
+
+.subscribe{
+  width: 60%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 23%;
+  margin-top: 80px;
+  padding: 20px 10px;
+  box-shadow: 1px 1px 20px gray;
+  margin-bottom: 60px;
+  border-radius: 12px;
+}
+
+.subscribe .btn button{
+  padding: 12px 30px;
+  background-color: #f53535;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Subscribe section end */
+
+/* Footer section start */
+
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footer div h5{
+  font-size: 20px;
+}
+
+.footer div p{
+  padding: 6px 0px;
+}
+/* Footer Section End */
